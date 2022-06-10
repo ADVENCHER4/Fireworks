@@ -1,5 +1,4 @@
 import { colors, updateDeltaTime, maxParticleSize, minParticleSize, trailSize } from './constants.js';
-import { TrailPart } from "./trailPart.js";
 
 export class Particle {
     constructor(pos, angle) {
